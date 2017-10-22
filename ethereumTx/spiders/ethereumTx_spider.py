@@ -3,8 +3,8 @@ import re
 from bs4 import BeautifulSoup
 from ethereumTx.items import EthereumtxItem, BlockItem
 # config
-startBlock = 4250000
-blockNum = 50000
+startBlock = 4000000
+blockNum = 10
 mainUrl = 'https://etherscan.io/'
 class EthereumTxSpider(scrapy.Spider):
     name = "ethereumTx"
